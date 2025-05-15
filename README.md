@@ -1,2 +1,13 @@
 # Website-GMNI
 Website GmnI Menggunakan framework Bootstrap 5
+# Tampilan User
+![localhost_gmnioku_index php (1)](https://github.com/user-attachments/assets/e175fd11-f140-41d8-a0e4-041b7b0a0ee4)
+![localhost_gmnioku_berita php](https://github.com/user-attachments/assets/b92a79b6-8c81-4f39-b56d-505668ae84c1)
+![localhost_gmnioku_detail_berita php_id=20](https://github.com/user-attachments/assets/dedc80da-562e-4e16-8116-0e31ecf6766d)
+![localhost_gmnioku_galeri php](https://github.com/user-attachments/assets/956cd9b8-20a7-40d2-86c6-0aac0c99bac8)
+
+ # Tampilan Admin
+![localhost_gmnioku_admin_index php](https://github.com/user-attachments/assets/ba98d847-fae8-40d2-9d49-33dd9210c814)
+![localhost_gmnioku_admin_kategori php](https://github.com/user-attachments/assets/f50f9da3-64a5-4bde-95f9-d7508d279f98)
+![localhost_gmnioku_admin_berita php](https://github.com/user-attachments/assets/e01fa65e-8237-44c1-8e11-796dd36109b2)
+![localhost_gmnioku_admin_galeri php](https://github.com/user-attachments/assets/adce2bcc-b150-4746-9137-8848b3c5be85)
