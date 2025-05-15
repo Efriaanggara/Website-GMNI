@@ -1,0 +1,353 @@
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+  .carousel-caption {
+    bottom: 250px;
+  }
+  .carousel-caption h5 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .carousel-caption {
+    bottom: 130px;
+  }
+  .carousel-caption h5 {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 440px) {
+  .about-desa {
+    text-align: center;
+  }
+}
+/* Admin Buka */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  padding-top: 20px;
+  background: hsla(351, 100%, 25%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(351, 100%, 25%, 1) 0%,
+    hsla(9, 59%, 7%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(351, 100%, 25%, 1) 0%,
+    hsla(9, 59%, 7%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(351, 100%, 25%, 1) 0%,
+    hsla(9, 59%, 7%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7F0012", endColorstr="#1B0A07", GradientType=1 );
+}
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+.sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+.sidebar .nav-link:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+.sidebar .icon {
+  font-size: 18px;
+}
+.sidebar .sub-menu {
+  background-color: #1b0a07;
+  padding-left: 4%;
+}
+
+.main-content {
+  margin-left: 200px;
+  height: 100%;
+  padding: 20px;
+}
+/* Responsive Admin */
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 60px;
+  }
+  .sidebar .description {
+    display: none;
+  }
+  .sidebar .nav-link {
+    justify-content: center;
+  }
+  .main-content {
+    margin-left: 60px;
+  }
+}
+/* Responsive admin tutup */
+
+/* Dashboard Buka */
+.summary-kategori {
+  background-color: #7f0012;
+  border-radius: 15px;
+}
+.summary-berita {
+  background-color: #1b0a07;
+  border-radius: 15px;
+}
+.summary-galeri {
+  background-color: #25221e;
+  border-radius: 15px;
+}
+/* Dashboard Tutup */
+
+/* Edit Buka */
+#editBeritaModal .modal-content {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border: none;
+  opacity: 1;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+#editBeritaModal .modal-header,
+#editBeritaModal .modal-body,
+#editBeritaModal .modal-footer {
+  background-color: #ffffff;
+}
+#editBeritaModal .modal-header {
+  border-bottom: 1px solid #dee2e6;
+}
+#editBeritaModal .modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
+/* Edit Tutup */
+
+/* Berita Buka */
+.modal-backdrop.show {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.modal-content {
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+.modal-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+.edit-berita {
+  backdrop-filter: none !important;
+  background-color: #ffffff !important;
+}
+/* Berita Tutup */
+/* galeri Buka */
+.upload-img {
+  max-width: 100px;
+}
+/* galeri Tutup */
+/* Admin Tutup */
+
+.no-decoration {
+  text-decoration: none;
+}
+/* About Style */
+.about {
+  width: 100px;
+  heigth: 100vh;
+}
+.about-img {
+  padding-top: 20px;
+}
+.about-text {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.img-container {
+  background: none;
+  padding: 3px;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+/* Berita Style */
+.latar {
+  background: hsla(351, 100%, 25%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(351, 100%, 25%, 1) 0%,
+    hsla(9, 59%, 7%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(351, 100%, 25%, 1) 0%,
+    hsla(9, 59%, 7%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(351, 100%, 25%, 1) 0%,
+    hsla(9, 59%, 7%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7F0012", endColorstr="#1B0A07", GradientType=1 );
+}
+
+.berita {
+  width: 100px;
+  heigth: 100vh;
+}
+.berita-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.berita-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-sejarah {
+  background: none;
+  padding: 8px;
+  box-shadow: none;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #fff;
+}
+
+/* Fasilitas Desa */
+.hightlight-fasilitas {
+  height: 250px;
+}
+
+.fasilitas-sekolah {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/sd179.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.fasilitas-sekolah:hover {
+  transform: scale(1.05);
+}
+
+.fasilitas-pasar {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/pasar.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.fasilitas-pasar:hover {
+  transform: scale(1.05);
+}
+
+.fasilitas-puskesmas {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/puskesmas.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.fasilitas-puskesmas:hover {
+  transform: scale(1.05);
+}
+
+.fasilitas-masjid {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/masjid.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.fasilitas-masjid:hover {
+  transform: scale(1.05);
+}
+
+.fasilitas-gedungolahraga {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/gedung_olahraga.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.fasilitas-gedungolahraga:hover {
+  transform: scale(1.05);
+}
+
+.fasilitas-pemancingan {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/pemancingan.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.fasilitas-pemancingan:hover {
+  transform: scale(1.05);
+}
+
+/* Berita home */
+.pagination .page-item.active .page-link {
+  background-color: #800000; /* Warna kuning untuk halaman aktif */
+  border-color: #800000; /* Warna border kuning */
+  color: #fff; /* Warna teks hitam */
+}
+
+.pagination .page-item:not(.active) .page-link {
+  background-color: transparent; /* Transparan untuk halaman selain aktif */
+  border-color: #ddd; /* Warna border abu-abu */
+  color: #6c757d; /* Warna teks abu-abu */
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.pagination .page-item.next .page-link {
+  background-color: #800000; /* Warna kuning pada tombol next */
+  border-color: #800000; /* Border kuning */
+  color: #fff; /* Warna teks hitam pada next */
+}
+
+.pagination .page-item.prev .page-link {
+  background-color: #800000; /* Warna kuning pada tombol previous */
+  border-color: #800000; /* Border kuning */
+  color: #fff; /* Warna teks hitam pada previous */
+}
+
+.navbar .nav-link:hover {
+  color: #800000 !important;
+  font-weight: normal !important;
+}
+.navbar .dropdown-item:hover {
+  color: #800000 !important;
+  font-weight: normal !important;
+}
+.navbar .nav-link.active {
+  color: white;
+  border-bottom: 2px solid #800000;
+  padding-bottom: 2px; /* beri sedikit ruang antara teks dan garis */
+}
+.navbar .dropdown-item.active {
+  color: #800000 !important;
+  font-weight: normal !important;
+}
