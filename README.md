@@ -10,4 +10,4 @@ Website GmnI Menggunakan framework Bootstrap 5
 ![localhost_gmnioku_admin_index php](https://github.com/user-attachments/assets/ba98d847-fae8-40d2-9d49-33dd9210c814)
 ![localhost_gmnioku_admin_kategori php](https://github.com/user-attachments/assets/f50f9da3-64a5-4bde-95f9-d7508d279f98)
 ![localhost_gmnioku_admin_berita php](https://github.com/user-attachments/assets/e01fa65e-8237-44c1-8e11-796dd36109b2)
-![localhost_gmnioku_admin_galeri php](https://github.com/user-attachments/assets/adce2bcc-b150-4746-9137-8848b3c5be85)
+![localhost_gmnioku_admin_galeri php (1)](https://github.com/user-attachments/assets/08ffebf7-d23d-40a6-b157-2e138a5cc244)
